@@ -1,12 +1,57 @@
+
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>HackEthIA</title>
-  </head>
-  <body style="font-family: sans-serif; text-align: center; margin-top: 80px;">
-    <h1>Bienvenue sur HackEthIA</h1>
-    <p>Projet de site sur le hack éthique et l’intelligence artificielle.</p>
-    <p>Version : test public via GitHub Pages</p>
-  </body>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>HackEthIA — Hacking éthique de l'IA</title>
+<style>
+  :root{--bg:#050505;--muted:#9b9b9b;--mono: "Courier New", Courier, monospace;--neon:#b8ff9a;--accent:#7be3ff;--pink:#d07cff}
+  html,body{height:100%;margin:0;background:var(--bg);color:#eee;font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+  .wrap{max-width:980px;margin:0 auto;padding:28px;}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .logo{width:44px;height:44px;border-radius:6px;background:linear-gradient(135deg,#2a0a4f,#0b0b0b);display:flex;align-items:center;justify-content:center;color:#b5a3ff;font-weight:700;font-family:var(--mono)}
+  .term{font-family:var(--mono);color:#9b59b6;font-size:13px}
+  h1{font-family:var(--mono);font-size:48px;line-height:0.98;color:var(--neon);margin:26px 0 8px}
+  p.lead{color:var(--muted);font-size:18px;max-width:720px}
+  .stats{display:flex;gap:12px;margin:22px 0;flex-wrap:wrap}
+  .card{background:rgba(255,255,255,0.02);padding:18px;border:1px solid rgba(255,255,255,0.03);min-width:110px;text-align:center;border-radius:6px}
+  .card .num{font-family:var(--mono);font-size:28px;color:var(--neon)}
+  .card .label{font-size:12px;color:var(--muted);margin-top:6px}
+  blockquote{border-left:3px solid rgba(255,255,255,0.04);padding-left:14px;color:var(--muted);font-style:italic;margin-top:28px}
+  .enter-btn{display:inline-block;margin-top:28px;padding:12px 18px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);color:#fff;text-decoration:none;font-weight:600}
+  footer{margin:80px 0 30px;color:var(--muted);font-size:13px}
+  @media(max-width:600px){
+    h1{font-size:34px}
+    .wrap{padding:18px}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">F♠</div>
+      <div class="term">root@security:~/presentations$ cat index.md</div>
+    </header>
+
+    <main>
+      <h1>HACKING<br/>ÉTHIQUE DE<br/>L'IA</h1>
+      <p class="lead">Guide technique complet pour professionnels du test de sécurité — notes, outils et retours d’expérience.</p>
+
+      <div class="stats">
+        <div class="card"><div class="num">19</div><div class="label">Slides</div></div>
+        <div class="card"><div class="num" style="color:var(--accent)">8</div><div class="label">Chapitres</div></div>
+        <div class="card"><div class="num" style="color:var(--pink)">~45min</div><div class="label">Durée</div></div>
+      </div>
+
+      <a class="enter-btn" href="#contenu">Entrer dans le Lab →</a>
+
+      <blockquote>« Tester, c'est protéger. Partager, c'est renforcer. »</blockquote>
+    </main>
+
+    <footer>
+      © HackEthIA — version test publique • Site hébergé via GitHub Pages
+    </footer>
+  </div>
+</body>
 </html>
